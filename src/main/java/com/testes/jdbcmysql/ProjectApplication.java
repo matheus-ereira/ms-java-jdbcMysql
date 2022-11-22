@@ -17,7 +17,7 @@ import java.sql.SQLException;
  */
 public class ProjectApplication {
 
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) {
         //Por questões de segurança, o correto é utilizar variaveis no application properties para essas conexões de banco.
         //Mas para fins de teste, irei deixar as configurações hard code.
         String JdbcURL = "jdbc:mysql://localhost:3306/sms";
